@@ -1,0 +1,20 @@
+{
+  "name": "jitda-agents",
+  "version": "1.0.0",
+  "description": "JITDA 멀티브랜드 마케팅 에이전트 시스템",
+  "scripts": {
+    "influencer:morning": "tsx morning.ts",
+    "influencer:evening": "tsx evening.ts"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.39.0",
+    "node-telegram-bot-api": "^0.64.0",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "tsx": "^4.7.0",
+    "typescript": "^5.3.3",
+    "@types/node": "^20.11.0",
+    "@types/node-telegram-bot-api": "^0.64.5"
+  }
+}
